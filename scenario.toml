@@ -1,16 +1,25 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019b6c01-32f0-7160-b849-e839f7e31e5b"
 
+[green_agent.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+LOG_LEVEL = "INFO"
+
+# Participant role - biomedical agent to evaluate
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
+name = "biomedical_agent"
+agentbeats_id = ""  # Participants fill this when submitting
 
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+[participants.env]
+# Participants can provide their own environment variables
 
+# BioEval assessment configuration
 [config]
-# Add your assessment config here
+# Number of examples per task (default if not specified: all)
+num_tasks = 10
+
+# Few-shot examples: 0, 1, or 5
+fewShotExamples = 0
+
+# Enable detailed logging
+verbose = false
