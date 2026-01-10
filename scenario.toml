@@ -8,7 +8,7 @@ LOG_LEVEL = "INFO"
 # Participant role - biomedical agent to evaluate
 [[participants]]
 name = "biomedical_agent"
-agentbeats_id = "<PURPLE_AGENT_ID>"  # TODO: Replace with your purple agent ID from AgentBeats
+agentbeats_id = "019ba857-f269-7330-8c56-42d2793545ac"
 
 [participants.env]
 OPENAI_API_KEY = "${OPENAI_API_KEY}"
