@@ -8,10 +8,10 @@ LOG_LEVEL = "INFO"
 # Participant role - biomedical agent to evaluate
 [[participants]]
 name = "biomedical_agent"
-agentbeats_id = ""  # Participants fill this when submitting
+agentbeats_id = "019ba857-f269-7330-8c56-42d2793545ac"
 
 [participants.env]
-# Participants can provide their own environment variables
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
 
 # BioEval assessment configuration
 [config]
