@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/bioeval/bioeval-agent@sha256:8bdc2d9d440dbc25e6f36db14b22012e98483da46126e37d84014db86a31559e",
+    "biomedical_agent": "ghcr.io/bioeval/bioeval-purple@sha256:fb6d5ebae1f29fca8d9d3e7c2681e649f43209476a1ed58511c9f0fa8c6a5a7a",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-13T13:59:09Z",
+  "github_actions": {
+    "run_url": "https://github.com/BioEval/bioeval-leaderboard/actions/runs/20959378007",
+    "run_logs_url": "https://api.github.com/repos/BioEval/bioeval-leaderboard/actions/runs/20959378007/logs",
+    "ref": "refs/heads/feature/purple-agent-test",
+    "sha": "883976d7898af8184a4dfecdaab01fff98a6acae",
+    "repository_url": "https://github.com/BioEval/bioeval-leaderboard",
+    "workflow_ref": "BioEval/bioeval-leaderboard/.github/workflows/run-scenario.yml@refs/heads/feature/purple-agent-test",
+    "workflow_sha": "883976d7898af8184a4dfecdaab01fff98a6acae"
+  }
+}
