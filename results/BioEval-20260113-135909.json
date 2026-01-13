@@ -1,11 +1,14 @@
 {
   "participants": {
-    "biomedical_agent": "019ba857-f269-7330-8c56-42d2793545ac"
+    "agent": "019ba857-f269-7330-8c56-42d2793545ac"
   },
   "results": [
     {
-      "winner": "biomedical_agent",
+      "pass_rate": 61.67,
+      "time_used": 51.02,
+      "max_score": 100,
       "detail": {
+        "winner": "biomedical_agent",
         "leaderboard": [
           {
             "id": "biomedical_agent",

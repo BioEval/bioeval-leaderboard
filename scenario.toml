@@ -5,9 +5,9 @@ agentbeats_id = "019b6c01-32f0-7160-b849-e839f7e31e5b"
 OPENAI_API_KEY = "${OPENAI_API_KEY}"
 LOG_LEVEL = "INFO"
 
-# Participant role - biomedical agent to evaluate
+# Participant role - agent to evaluate (use "agent" for standard AgentBeats format)
 [[participants]]
-name = "biomedical_agent"
+name = "agent"
 agentbeats_id = "019ba857-f269-7330-8c56-42d2793545ac"
 
 [participants.env]
