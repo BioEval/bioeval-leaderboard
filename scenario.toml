@@ -22,4 +22,4 @@ num_tasks = 10
 fewShotExamples = 0
 
 # Enable detailed logging
-verbose = true
+verbose = false
