@@ -8,7 +8,7 @@ LOG_LEVEL = "INFO"
 # Participant role - agent to evaluate (use "agent" for standard AgentBeats format)
 [[participants]]
 name = "agent"
-agentbeats_id = "019ba857-f269-7330-8c56-42d2793545ac"
+agentbeats_id = "019bbdb1-f277-7df0-90e9-7024d4168209"
 
 [participants.env]
 OPENAI_API_KEY = "${OPENAI_API_KEY}"
