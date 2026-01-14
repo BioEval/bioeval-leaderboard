@@ -1,0 +1,25 @@
+[green_agent]
+agentbeats_id = "019b6c01-32f0-7160-b849-e839f7e31e5b"
+
+[green_agent.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+LOG_LEVEL = "INFO"
+
+# Participant role - agent to evaluate (use "agent" for standard AgentBeats format)
+[[participants]]
+name = "agent"
+agentbeats_id = "019bbdb1-f277-7df0-90e9-7024d4168209"
+
+[participants.env]
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+
+# BioEval assessment configuration
+[config]
+# Number of examples per task (default if not specified: all)
+num_tasks = 10
+
+# Few-shot examples: 0, 1, or 5
+fewShotExamples = 0
+
+# Enable detailed logging 
+verbose = true
