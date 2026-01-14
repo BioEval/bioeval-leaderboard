@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/bioeval/bioeval-agent@sha256:433c1c3d4c9a08670fc1e887247425e10f99c9005e470bb20b9d4c343564f89a",
+    "agent": "ghcr.io/bioeval/bioeval-purple@sha256:4efdd3be75f559903371a9b7b80a62e6b8ef44d1c02c6ca12dc411e5f6173228",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-14T17:42:17Z",
+  "github_actions": {
+    "run_url": "https://github.com/BioEval/bioeval-leaderboard/actions/runs/21003960092",
+    "run_logs_url": "https://api.github.com/repos/BioEval/bioeval-leaderboard/actions/runs/21003960092/logs",
+    "ref": "refs/heads/gpt-5.2-eval",
+    "sha": "6a080931c5dffb7d864a7e8da4bceaf80a6f8c46",
+    "repository_url": "https://github.com/BioEval/bioeval-leaderboard",
+    "workflow_ref": "BioEval/bioeval-leaderboard/.github/workflows/run-scenario.yml@refs/heads/gpt-5.2-eval",
+    "workflow_sha": "6a080931c5dffb7d864a7e8da4bceaf80a6f8c46"
+  }
+}
